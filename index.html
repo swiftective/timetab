@@ -7,7 +7,6 @@
   </head>
   <script>
     function changeTime() {
-      console.log("yep");
       const el = document.querySelector("#time");
       const date = new Date();
       el.innerText = `${date.getHours()}:${date.getMinutes().toString().padStart(2, "0")}`;
